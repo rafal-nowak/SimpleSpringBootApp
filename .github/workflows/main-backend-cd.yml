@@ -17,7 +17,7 @@ jobs:
         env:
           MQTT_USERNAME: "admin"
           MQTT_PASSWORD: "qwerty"
-          MQTT_LISTENER: "1883"
+          MQTT_LISTENER: "'1883'"
 
     defaults:
       run:
